@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- loader div -->
+    <div
+      id="loader"
+      class="h-screen w-full bg-black fixed text-white flex items-center justify-center text-center z-[99]"
+    >
+      <div id="yellow1" class="h-full w-full bg-[#ffc300] absolute z-[8]"></div>
+
+      <div id="yellow2" class="h-full w-full bg-[#ffc300] absolute z-[7]"></div>
+
+      <video
+        autoplay
+        muted
+        loop
+        src="video.mp4"
+        class="h-full w-full absolute object-cover z-[6]"
+      ></video>
+      <h1
+        class="text-7xl leading-normal font-thin font-fright tracking-tighter relative z-[9]"
+      >
+        LIFE IS A SACRED <em>JOURNEY</em> OF <br />
+        <em>TRANSFORMATION,</em> SHAPED BY LOVE,<br />
+        LOSS, WONDER, <em>QUESTIONS,</em> <br />AND <em>TRUTH-SEEKING</em>
+      </h1>
+    </div>
+
+    <!-- nav -->
+
+    <div
+      id="nav"
+      class="absolute w-full px-[60px] py-[30px] z-[10] flex items-center justify-between"
+    >
+      <img src="logo.png" class="w-[94px] h-[70px]" />
+    </div>
+
+    <!-- main div -->
+    <div id="main" class="bg-black">
+      <!-- page 1  -->
+      <div
+        id="page1"
+        data-scroll
+        data-scroll-speed="-2.5"
+        class="bg-[#ffc300] text-white h-screen w-full flex justify-center items-center text-center"
+      >
+        <h1
+          class="text-black text-7xl leading-normal font-thin font-fright tracking-tighter"
+        >
+          LIFE IS A SACRED <em>JOURNEY</em> OF <br />
+          <em>TRANSFORMATION,</em> SHAPED BY LOVE,<br />
+          LOSS, WONDER, <em>QUESTIONS,</em> <br />AND <em>TRUTH-SEEKING</em>
+        </h1>
+      </div>
+
+      <div id="page2" data-scroll>
+        <div class="cover"></div>
+        <div data-scroll data-scroll-speed="2.5" class="elem" data-img="/1.jpg">
+          <h2>Genesis</h2>
+          <div class="blur"></div>
+
+          <div class="moving">
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+          </div>
+        </div>
+        <div data-scroll data-scroll-speed="2.5" class="elem" data-img="/2.jpg">
+          <h2>Becoming</h2>
+          <div class="blur"></div>
+          <div class="moving">
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+          </div>
+        </div>
+        <div data-scroll data-scroll-speed="2.5" class="elem" data-img="/3.jpg">
+          <h2>Striving</h2>
+
+          <div class="moving">
+            <div class="blur"></div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+          </div>
+        </div>
+        <div data-scroll data-scroll-speed="2.5" class="elem" data-img="/4.jpg">
+          <h2>Fading</h2>
+          <div class="blur"></div>
+          <div class="moving">
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+          </div>
+        </div>
+        <div data-scroll data-scroll-speed="2.5" class="elem" data-img="/5.jpg">
+          <h2>Surrender</h2>
+          <div class="blur"></div>
+          <div class="moving">
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+            <div class="moving-in">
+              <h5>Potential</h5>
+              <h5>Discovery</h5>
+              <h5>Ambition</h5>
+              <h5>Acceptance</h5>
+              <h5>Transcendence</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- page3 -->
+      <div id="page3" data-scroll>
+        <div class="image-container">
+          <div class="line">
+            <div class="image-div">
+              <div class="overlay">
+                <p>The Stranger</p>
+              </div>
+              <img src="camus.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>The Metamorphosis</p>
+              </div>
+              <img src="kafka.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>Beyond Good and Evil</p>
+              </div>
+              <img src="nietzsche.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>Crime and Punishment</p>
+              </div>
+              <img src="doe.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="image-div">
+              <div class="overlay">
+                <p>Apology</p>
+              </div>
+              <img src="socrates.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>Being and Nothingness</p>
+              </div>
+              <img src="jeanpaul.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>Fear and Trembling</p>
+              </div>
+              <img src="kierke.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>Meditations</p>
+              </div>
+              <img src="aurelius.jpg" alt="" />
+            </div>
+          </div>
+
+          <div class="line">
+            <div class="image-div">
+              <div class="overlay">
+                <p>The Communist Manifesto</p>
+              </div>
+              <img src="karl.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>Nicomachean Ethics</p>
+              </div>
+              <img src="aristotle.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>No longer human</p>
+              </div>
+              <img src="dazai.jpg" alt="" />
+            </div>
+
+            <div class="image-div">
+              <div class="overlay">
+                <p>Meditation on First Philosophy</p>
+              </div>
+              <img src="rene.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
